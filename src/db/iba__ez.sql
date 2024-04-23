@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2024 at 08:48 AM
+-- Generation Time: Apr 23, 2024 at 09:31 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -43,7 +43,7 @@ CREATE TABLE `ibañez` (
 --
 
 INSERT INTO `ibañez` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_username`, `u_password`, `u_type`, `u_status`) VALUES
-(1, 'nel', 'ibanez', 'arnelibanez@gmail.com', 'nel', '12345678', 'Admin', '');
+(1, 'arnel', 'ibanez', 'arnelibanez@gmail.com', 'nel', '12345678', 'Admin', 'Active');
 
 --
 -- Indexes for dumped tables

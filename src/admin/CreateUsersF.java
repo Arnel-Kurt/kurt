@@ -127,6 +127,7 @@ public class CreateUsersF extends javax.swing.JFrame {
         del = new javax.swing.JButton();
         cl = new javax.swing.JButton();
         cc = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -227,6 +228,9 @@ public class CreateUsersF extends javax.swing.JFrame {
             }
         });
         getContentPane().add(cc, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 80, -1));
+
+        jPanel1.setBackground(new java.awt.Color(153, 255, 255));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 470));
 
         pack();
         setLocationRelativeTo(null);
@@ -370,6 +374,7 @@ public class CreateUsersF extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
     public javax.swing.JTextField ln;
     public javax.swing.JTextField mail;
     public javax.swing.JTextField pw;

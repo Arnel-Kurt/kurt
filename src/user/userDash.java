@@ -8,7 +8,7 @@ package user;
 
 import config.Session;
 import javax.swing.JOptionPane;
-import testappnew.loginF;
+import kurt.loginF;
 
 /**
  *
