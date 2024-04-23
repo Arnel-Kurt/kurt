@@ -66,11 +66,11 @@ public class dashboard extends javax.swing.JFrame {
 
         acc_fname.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         acc_fname.setText("             ADMIN");
-        jPanel1.add(acc_fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 140, 20));
+        jPanel1.add(acc_fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 140, 20));
 
         acc_lname.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         acc_lname.setText("             ADMIN");
-        jPanel1.add(acc_lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 140, 20));
+        jPanel1.add(acc_lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 140, 20));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 320));
 
@@ -101,7 +101,7 @@ public class dashboard extends javax.swing.JFrame {
         jPanel4.add(jLabel5);
         jLabel5.setBounds(60, 80, 50, 20);
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 80, 180, 130));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 60, 140, 110));
 
         pack();
         setLocationRelativeTo(null);

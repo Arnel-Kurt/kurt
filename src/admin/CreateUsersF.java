@@ -132,6 +132,7 @@ public class CreateUsersF extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
         jLabel1.setText("CREATE FORM");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 164, 32));
 
@@ -183,6 +184,11 @@ public class CreateUsersF extends javax.swing.JFrame {
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 310, 60, 20));
 
         id.setEnabled(false);
+        id.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                idActionPerformed(evt);
+            }
+        });
         getContentPane().add(id, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 190, -1));
 
         jLabel10.setText("First Name");
@@ -320,6 +326,10 @@ public class CreateUsersF extends javax.swing.JFrame {
        this.dispose();
        
     }//GEN-LAST:event_ccActionPerformed
+
+    private void idActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_idActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_idActionPerformed
 
     /**
      * @param args the command line arguments

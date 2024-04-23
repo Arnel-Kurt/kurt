@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2024 at 09:31 AM
+-- Generation Time: Apr 23, 2024 at 10:01 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,16 +18,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kurt`
+-- Database: `ibanez`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ibañez`
+-- Table structure for table `nel`
 --
 
-CREATE TABLE `ibañez` (
+CREATE TABLE `nel` (
   `u_id` int(20) NOT NULL,
   `u_fname` varchar(50) NOT NULL,
   `u_lname` varchar(50) NOT NULL,
@@ -39,10 +39,10 @@ CREATE TABLE `ibañez` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `ibañez`
+-- Dumping data for table `nel`
 --
 
-INSERT INTO `ibañez` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_username`, `u_password`, `u_type`, `u_status`) VALUES
+INSERT INTO `nel` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_username`, `u_password`, `u_type`, `u_status`) VALUES
 (1, 'arnel', 'ibanez', 'arnelibanez@gmail.com', 'nel', '12345678', 'Admin', 'Active');
 
 --
@@ -50,9 +50,9 @@ INSERT INTO `ibañez` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_username`, `u
 --
 
 --
--- Indexes for table `ibañez`
+-- Indexes for table `nel`
 --
-ALTER TABLE `ibañez`
+ALTER TABLE `nel`
   ADD PRIMARY KEY (`u_id`);
 
 --
@@ -60,9 +60,9 @@ ALTER TABLE `ibañez`
 --
 
 --
--- AUTO_INCREMENT for table `ibañez`
+-- AUTO_INCREMENT for table `nel`
 --
-ALTER TABLE `ibañez`
+ALTER TABLE `nel`
   MODIFY `u_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 

@@ -9,7 +9,7 @@ package kurt;
  *
  * @author User
  */
-public class TesTappNew {
+public class kurt {
 
     /**
      * @param args the command line arguments
